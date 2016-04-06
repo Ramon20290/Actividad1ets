@@ -13,5 +13,33 @@ public class empleado {
     private String nombre;
     private String apellidos;
     private String dni;
-    
+      
+     public String getNombre()
+        {
+                return nombre;
+        }
+        public void setNombre(String nombre)
+        {
+                this.nombre = nombre;
+     
+       }
+        public String getapellidos()
+        {
+                return apellidos;
+        }
+        public void setapellidos(String apellidos)
+        {
+                this.apellidos = apellidos;
+     
+       }
+          public String getdni()
+        {
+                return dni;
+        }
+        public void setdni(String dni)
+        {
+                this.dni = dni;
+     
+       }
+   
 }
